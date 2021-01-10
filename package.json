@@ -1,6 +1,6 @@
 {
     "name": "rahikhan",
-    "version": "2.1.0",
+    "version": "1.0.0",
     "description": "A personal card for Rahi Khan",
     "main": "card.js",
     "bin": {

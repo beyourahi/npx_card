@@ -1,23 +1,29 @@
-# NPX CARD
-This my NPX card unique style to connect with me directly via console or terminal
+<h1 align="center">  <strong>NPX CARD</strong> </h1>
+<h3 align="center"> Connect with me using my NPX Card directly via a terminal </h3>
 
-👇 just hit 
+<br />
+
+### <strong>👇 just hit in your terminal</strong>
+
 ```bash
-npx anmol
+npx rahikhan
 ```
-And get to know me in unique style.
 
-### I spent a non-trivial amount of effort building and designing this iteration of npx card, and I am proud of it! All I ask of you all is to put a **star** ⭐ on this project and not claim this effort as your own ♥.
+<br />
 
-### SCREENSHOT
-
-The final output might look something like this:
+### <strong>SCREENSHOT</strong>
 
 ![image](https://github.com/anmol098/npx_card/blob/master/demo.gif)
 
+<br />
 
+### This project was originally created by [Anmol Pratap Singh](https://github.com/anmol098). It's all his hardwork so all the credit goes to him.
+
+### His [Github repo](https://github.com/anmol098/npx_card) for this project.
+
+<br />
 <hr/>
 
-##### STEPS TO CREATE YOUR OWN
-The article written by our friend @jackboberg. I used the same for the reference to deploy the package. 
-[Write a Simple npx Business Card](https://studioelsa.se/blog/open-source-oss-npx-business-card). 
+### <strong>STEPS TO CREATE YOUR OWN</strong>
+
+### Check out [_this article_](https://studioelsa.se/blog/open-source-oss-npx-business-card) written by [@jackboberg](https://github.com/jackboberg) about how to create a simple NPX Business Card
