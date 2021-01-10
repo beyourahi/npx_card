@@ -11,7 +11,7 @@ npx rahikhan
 
 <br />
 
-### <strong>SCREENSHOT</strong>
+### <strong>🚀 DEMO</strong>
 
 ![image](https://github.com/rahi-khan/npx_card/blob/main/demo.gif)
 
@@ -19,11 +19,11 @@ npx rahikhan
 
 ### This project was originally created by [Anmol Pratap Singh](https://github.com/anmol098). It's all his hardwork so all the credit goes to him.
 
-### His [Github repo](https://github.com/anmol098/npx_card) for this project.
+### 💻 His [Github repo](https://github.com/anmol098/npx_card) for this project.
 
 <br />
 <hr/>
 
-### <strong>STEPS TO CREATE YOUR OWN</strong>
+### <strong>STEPS TO CREATE YOUR OWN </strong>
 
 ### Check out [_this article_](https://studioelsa.se/blog/open-source-oss-npx-business-card) written by [@jackboberg](https://github.com/jackboberg) about how to create a simple NPX Business Card
