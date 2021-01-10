@@ -13,7 +13,7 @@ npx rahikhan
 
 ### <strong>SCREENSHOT</strong>
 
-![image](https://github.com/anmol098/npx_card/blob/master/demo.gif)
+![image](https://github.com/rahi-khan/npx_card/blob/main/demo.gif)
 
 <br />
 
