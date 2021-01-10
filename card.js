@@ -59,7 +59,7 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("                    Rahi Khan"),
+    name: chalk.bold.green("                  Rahi Khan"),
     handle: chalk.white("@anmol098"),
     // work: `${chalk.white("Software Engineer at")} ${chalk.hex("#2b82b2").bold("ClearTax")}`,
     work: `${chalk.hex("#2b82b2").bold("Freelance")} ${chalk.white("Web Developer")} `,
