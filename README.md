@@ -20,7 +20,7 @@ npx rahikhan
 <br />
 
 ### <strong>⚡ Wanna make your own NPX Business Card?</strong>
-#### Check out my blog on [Hashnode](https://rahikhan.hashnode.dev/create-a-simple-npx-business-card) or [Dev.to](https://dev.to/rahikhan/create-a-simple-npx-business-card-2j4i) and make your own version!
+#### Check out my blog on [Hashnode](https://rahikhan.hashnode.dev/create-a-simple-npx-business-card) or [Dev.to](https://dev.to/rahikhan/create-a-simple-npx-business-card-2j4i) and follow the steps!
 <br />
 
 ---
