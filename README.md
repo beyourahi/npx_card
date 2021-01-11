@@ -17,11 +17,9 @@ npx rahikhan
 
 <br />
 
----
-
 <br />
 
-### <strong>⚡ Wanna make your own NPX Business Card?</strong>
+## <strong>⚡ Wanna make your own NPX Business Card?</strong>
 #### 1. Create an account on [npm](https://www.npmjs.com/) if you don't have
 #### 2. Login to your npm account through the terminal 👇
 ```bash
