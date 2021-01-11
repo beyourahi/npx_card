@@ -1,6 +1,6 @@
 {
-    "name": "@rahikhan/cool-npx-card",
-    "version": "2.1.1",
+    "name": "rahikhan",
+    "version": "2.1.2",
     "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
     "description": "A personal card for Rahi Khan",
     "main": "card.js",
