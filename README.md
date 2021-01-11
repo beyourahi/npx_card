@@ -27,7 +27,7 @@ npm login
 ```
 #### 3. Hit the <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1610228403176/kGm5l6Bcv.png" width="150"/> button or **Clone** this repo
 #### 4. Input your info in the [_**data.json**_](https://github.com/rahi-khan/npx_card/blob/main/data.json) file
-#### 5. `git add . && git commit -m "cool npx card"` to your own repo when you're done
+#### 5. `git add . && git commit -m "cool npx card" && git push` to your own repo when you're done
 #### 6. Publish your package 👇
 ```bash
 npm publish
