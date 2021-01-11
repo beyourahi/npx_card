@@ -27,6 +27,7 @@ const {
     personal_site,
     npx_card_handle,
     job_title,
+    resume_url,
 } = user_data;
 
 const prompt = inquirer.createPromptModule();
@@ -37,6 +38,7 @@ const questions = [
         name: "action",
         message: "What you want to do?",
         choices: [
+            //// Send an email
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
@@ -44,6 +46,7 @@ const questions = [
                     console.log("\nDone, see you soon at inbox.\n");
                 },
             },
+            //// Download Resume
             {
                 name: `Download my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
@@ -52,17 +55,21 @@ const questions = [
                         text: " Downloading Resume",
                         spinner: cliSpinners.material,
                     }).start();
-                    let pipe = request("https://anmolsingh.me/api/resume").pipe(
-                        fs.createWriteStream("./anmol-resume.html")
+                    let pipe = request(`${resume_url}`).pipe(
+                        fs.createWriteStream(`./${npx_card_handle}-resume.html`)
                     );
                     pipe.on("finish", function () {
-                        let downloadPath = path.join(process.cwd(), "anmol-resume.html");
+                        let downloadPath = path.join(
+                            process.cwd(),
+                            `${npx_card_handle}-resume.html`
+                        );
                         console.log(`\nResume Downloaded at ${downloadPath} \n`);
                         open(downloadPath);
                         loader.stop();
                     });
                 },
             },
+            //// Quit
             {
                 name: "Just quit.",
                 value: () => {

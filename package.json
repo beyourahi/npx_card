@@ -1,11 +1,10 @@
 {
-    "name": "rahikhan",
-    "version": "2.0.1",
+    "name": "@rahikhan/cool-npx-card",
+    "version": "2.1.1",
+    "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
     "description": "A personal card for Rahi Khan",
     "main": "card.js",
-    "bin": {
-        "rahikhan": "./card.js"
-    },
+    "bin": "./card.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/rahi-khan/npx_card.git"
@@ -32,6 +31,5 @@
         "npx card",
         "business card"
     ],
-    "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
     "license": "ISC"
 }
