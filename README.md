@@ -3,7 +3,7 @@
 
 <br />
 
-### <strong>👇 just hit in your terminal</strong>
+### <strong>👇 just hit this in your terminal</strong>
 
 ```bash
 npx rahikhan
