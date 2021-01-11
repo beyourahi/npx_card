@@ -13,7 +13,7 @@ npx rahikhan
 
 ### <strong>🚀 DEMO</strong>
 
-![image](https://github.com/rahi-khan/npx_card/blob/main/demo.gif)
+![demo.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1610360119791/rLM8MkTgG.gif)
 
 <br />
 

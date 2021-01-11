@@ -12,7 +12,22 @@ const request = require("request");
 const path = require("path");
 const ora = require("ora");
 const cliSpinners = require("cli-spinners");
+
 clear();
+
+//! importing User Data from data.json
+const res = fs.readFileSync(path.resolve(__dirname, "data.json"));
+const data = JSON.parse(res);
+const {
+    name,
+    email,
+    twitter_username,
+    linkedin_username,
+    github_username,
+    personal_site,
+    npx_card_handle,
+    job_title,
+} = data;
 
 const prompt = inquirer.createPromptModule();
 
@@ -25,7 +40,7 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:rahikhan360@gmail.com");
+                    open(`mailto:${email}`);
                     console.log("\nDone, see you soon at inbox.\n");
                 },
             },
@@ -59,15 +74,14 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("                  Rahi Khan"),
-    handle: chalk.white("@anmol098"),
+    name: chalk.bold.green(`                  ${name}`),
     // work: `${chalk.white("Software Engineer at")} ${chalk.hex("#2b82b2").bold("ClearTax")}`,
-    work: `${chalk.hex("#2b82b2").bold("Freelance")} ${chalk.white("Web Developer")} `,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("rahikhan_dev"),
-    github: chalk.gray("https://github.com/") + chalk.green("rahi-khan"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("rahikhan"),
-    web: chalk.cyan("https://rahikhan.gtsb.io"),
-    npx: chalk.red("npx") + " " + chalk.white("rahikhan"),
+    work: `${chalk.white(`${job_title}`)}`,
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
+    github: chalk.gray("https://github.com/") + chalk.green(`${github_username}`),
+    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue(`${linkedin_username}`),
+    web: chalk.cyan(`${personal_site}`),
+    npx: chalk.red("npx") + " " + chalk.white(`${npx_card_handle}`),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
