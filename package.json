@@ -1,6 +1,6 @@
 {
     "name": "rahikhan",
-    "version": "2.1.2",
+    "version": "2.2.2",
     "author": "Rahi Khan <rahikhan360@gmail.com> (https://rahikhan.gtsb.io)",
     "description": "A personal card for Rahi Khan",
     "main": "card.js",
@@ -20,7 +20,7 @@
         "cli-spinners": "^2.5.0",
         "inquirer": "^7.3.3",
         "open": "^7.3.1",
-        "ora": "^5.2.0",
+        "ora": "^5.3.0",
         "request": "^2.88.2"
     },
     "keywords": [
